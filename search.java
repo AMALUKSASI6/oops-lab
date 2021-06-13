@@ -31,16 +31,3 @@ public class search {
 
 
 
-C:\Users\HP\Desktop\oops>javac search.java
-
-C:\Users\HP\Desktop\oops>java search
-Enter limit:
-3
-Enter 3 data:
-2
-4
-6
-Enter element to search:
-2
-2 Element found at 1 position
-
