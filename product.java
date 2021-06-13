@@ -31,18 +31,5 @@ System.out.println(p[2].price+" is smallest price");
 }	
 
 
-C:\Users\HP\Desktop\oops>java product
-Enter the data:
-1
-30
-pen
-Enter the data:
-3
-50
-book
-Enter the data:
-4
-34
-pencil
-30 is smallest price
+
 		
