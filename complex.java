@@ -20,14 +20,3 @@ public static void main(String a[])
 
 
 
-
-C:\Users\HP\Desktop\oops>javac complex.java
-
-C:\Users\HP\Desktop\oops>java complex
-Enter the complex number a:
-5.
-2
-Enter the complex number b:
-5
-3
-Sum:10.0+5.0i
