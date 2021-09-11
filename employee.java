@@ -1,5 +1,19 @@
-
 import java.util.*;
+public class employee{
+    public static void main(String arg[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the limit:");
+        int n=sc.nextInt();
+        teacher tr[]=new teacher[n];
+        for (int i=0;i<n;i++)
+        {
+            tr[i]=new teacher();
+            tr[i].display();
+        }
+    }
+}
+
 class employees {
     Scanner sc=new Scanner(System.in);
     int empid,salary;
@@ -29,6 +43,7 @@ class teacher extends employees{
     void display()
     {
         System.out.println("Details are:");
+	System.out.println("------------------");
         System.out.println(Name);
         System.out.println(empid);
         System.out.println(address);
@@ -38,21 +53,57 @@ class teacher extends employees{
     }
 }
 
-public class employee{
-    public static void main(String ...a)
-    {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the limit:");
-        int n=sc.nextInt();
-        teacher tr[]=new teacher[n];
-        for (int i=0;i<n;i++)
-        {
-            tr[i]=new teacher();
-            tr[i].display();
-        }
-    }
-}
+output
+------------
+C:\Users\HP>cd Desktop
 
+C:\Users\HP\Desktop>cd java
 
+C:\Users\HP\Desktop\java>javac employee.java
 
+C:\Users\HP\Desktop\java>java employee
+Enter the limit:
+2
+name:
+amalu
+Employee id:
+7
+salary:
+30000
+address:
+nechoor
+Department name:
+cs
+Subject:
+ds
+Details are:
+------------------
+amalu
+7
+nechoor
+ds
+cs
+30000
+name:
+anu
+Employee id:
+5
+salary:
+20000
+address:
+aluva
+Department name:
+mba
+Subject:
+maths
+Details are:
+------------------
+anu
+5
+aluva
+maths
+mba
+20000
+
+C:\Users\HP\Desktop\java>
 
